@@ -47,10 +47,17 @@ section .iframe {
     border-radius: 15px;
 }
 
-.Pictures-container {
+.Picture-container {
     height: 100vh;
     background-color: var(--secondary);
     padding: 5rem;
+}
+
+.carousel-container {
+    padding: 5rem;
+    border: solid 10px var(--accent);
+    height: 100vh;
+    background-color: var(--secondary);
 }
 
 .slider-wrapper {
