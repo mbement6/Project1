@@ -49,24 +49,16 @@ section .iframe {
     border-radius: 15px;
 }
 
-.Picture-container {
-    height: 100vh;
-    background-color: var(--secondary);
-    padding: 5rem;
-}
-
 .carousel-container {
     padding: 5rem;
     border: solid 10px var(--accent);
-    height: 100vh;
-    background-color: var(--secondary);
 }
 
 .slider-wrapper {
     position: relative;
     max-width: 48rem;
     margin: 0 auto;
-    border: solid 5px #c2b280;
+    border: solid 5px var(--accent);
     border-radius: 0.5rem;
 }
 
