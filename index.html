@@ -1,3 +1,4 @@
+<!--Harrison Bement, Project 1, 3/2/2024-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +11,11 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -35,7 +39,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown link
+                                My page
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#Resume">Resume</a></li>
@@ -51,11 +55,11 @@
     </header>
 
 
-    <section class="Resume-container" id="#Resume">
+    <section class="Resume-container" id="Resume">
         <main class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="col-md-10 col-lg-8 col-xl-7"> <!--These past three lines I got from Chat GPT. They helped me make the container to the size I wanted and center the text-->
                         <ol>
                             <li>Education</li>
                             <ul>
@@ -127,12 +131,55 @@
         </main>
     </section>
 
-    <section class="AboutME-container" id="#AboutME">
-
+    <section class="AboutMe-container" id="AboutMe">
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7"> <!--I also got these lines of code from Chat GPT. I asked it to give me the same lines as the last section.-->
+        
+                        <table>
+        
+                            <center>
+                                <tr>
+                                    <th><img src="./img/temple-photo.JPG" height=290 alt="Wedding photo"></th>
+                                    <th>I was sealed and married to my wife on May 10, 2022. We have now been married for almost two years. 
+                                        We both attend Brigham Young University. My wife is currently
+                                        in the Masters Program of Accountancy. Since being married we have flown all over the U.S.
+                                        We both plan on working full-time after school.</th>
+                                </tr>
+        
+                                <tr>
+                                    <th class="th">This is my entire family. Believe it or not I have nine siblings, two nieces,
+                                        and six nephews. I love them all so much. We have been living in Utah for almost 20
+                                        years now. My dad works for Nu Skin as a product manager and my mom is an aerobics
+                                        instructor at VASA. I love all of my nieces and nephews; they know me as the fun uncle
+                                        who likes to always tease and play with them.</th>
+                                    <th><img src="./img/family-pic.jpg" width=400  alt="Mclain family photo"></th>
+                                </tr>
+        
+                                <tr>
+                                    <th><img src="./img/ninth-picture.jpeg" width="300" alt="Taylor Family"></th>
+                                    <th class="th">This is my daughter Oakley. She is the cutest and most energetic three month old. 
+                                        She loves to play with her teething toys and go on walks. She was born on November 6, 2023.
+                                        She is spoiled by both of her grandparents and has already been on multiple trips outside of Utah.
+                                        I love her so much and can't wait till she can start walking around and talking. </th>
+                                </tr>
+        
+                                <tr>
+                                    <th class="th">I served my mission in Hungary. I got the amazing expperience to serve in
+                                        Papa, Szekesfehervar, Szolnok, Gyor, and Pest! I loved everything about my mission from
+                                        all the cool architecture to teaching people about the Gospel of Jesus Christ. One of my
+                                        favorite experiences was when I got to watch Hungary play against England in the Euro
+                                        Cup.</th>
+                                    <th><img src="./img/second-picture.JPG" width=300 alt="Mission Picture"></th>
+                                </tr>
+                            </center>
+        
+                        </table>
     </section>
 
 
-    <section class="carousel-container" id="#Pictures">
+    <section class="carousel-container" id="Pictures">
         <div class="slider-wrapper">
             <div class="slider">
                 <img id="slide-1" src="./img/first-picture.JPG" alt="Hungary soccer stadium">
@@ -150,7 +197,7 @@
             </div>
         </div>
     </section>
-    <section class="Video-container" id="#Video">
+    <section class="Video-container" id="Video">
             <div class="iframe">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/3k-TJ8WBWcg?si=O5wzem_HVwFITocD"
                     title="YouTube video player" frameborder="0"
